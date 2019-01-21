@@ -1,0 +1,18 @@
+/*Import fonts from Google */
+@import url('https://fonts.googleapis.com/css?family=Lato:400i');
+@import url('https://fonts.googleapis.com/css?family=Catamaran');
+
+#title{
+    text-align: center;
+    font-family: 'Lato Bold', sans-serif;
+    width: auto;
+    padding: 20px, 0px;
+}
+
+.container {
+    background-color: #f1f1f1;
+}
+
+.container h3 {
+    font-style: italic;
+}
