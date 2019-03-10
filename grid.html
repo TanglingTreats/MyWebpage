@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bootstrap Grid Systems</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="mainstyle.css">
+        
+        <style type="text/css">
+            .pink{
+                background: pink;
+                border: 1px solid black;
+                padding: 20px 20px;
+            }
+        </style>
+
+    </head>
+    <body>
+        <div id="title">
+            <h1 >Grid System using Bootstrap</h1>
+        </div>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">Test</a>
+        
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="grid.html">Grid</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+        <div class="container">
+            <div class="row" style="margin-bottom: 30px;">
+                <div class="col-lg-6 pink">
+                    COL LG 6
+                </div>
+                <div class="col-lg-6 pink">
+                    COL LG 6
+                </div>
+            </div>
+            <div class="row" style="margin-bottom: 30px;">
+                <div class="col-md-2 pink">
+                    COL LG 2 SIDEBAR
+                </div>
+                <div class="col-md-8 pink">
+                    COL LG 8 MAIN CONTENT
+                </div>
+                <div class="col-md-2 pink">
+                    COL LG 2 SIDEBAR
+                </div>
+            </div>
+            <div class="row" style="margin-bottom: 30px;">
+                <div class="col-md-8 pink">
+                    COL LG 8 MAIN CONTENT
+                </div>
+                <div class="col-md-4 pink">
+                    COL LG 4 SIDEBAR
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
