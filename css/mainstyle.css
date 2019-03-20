@@ -1,10 +1,10 @@
 /*Import fonts from Google */
-@import url('https://fonts.googleapis.com/css?family=Lato:400i');
+@import url('https://fonts.googleapis.com/css?family=Lato:400');
 @import url('https://fonts.googleapis.com/css?family=Catamaran');
 
 #title{
     text-align: center;
-    font-family: 'Lato Bold', sans-serif;
+    font-family: 'Lato', sans-serif;
     width: auto;
     padding: 20px, 0px;
 }
